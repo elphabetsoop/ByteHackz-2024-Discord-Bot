@@ -1,12 +1,12 @@
-# fly.toml app configuration file generated for bytehackz2023bot on 2023-11-13T15:55:01+08:00
+# fly.toml app configuration file generated for bytehackz2024bot-init2 on 2024-10-12T15:58:57+08:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "bytehackz2023bot"
-primary_region = "sin"
-kill_signal = "SIGINT"
-kill_timeout = "5s"
+app = 'bytehackz2024bot-init2'
+primary_region = 'sin'
+kill_signal = 'SIGINT'
+kill_timeout = '5s'
 
 [experimental]
   auto_rollback = true
@@ -14,23 +14,37 @@ kill_timeout = "5s"
 [build]
 
 [env]
-  LOGGING_LEVEL = "10"
-  MAX_TICKETS = "5"
+  LOGGING_LEVEL = '10'
+  MAX_TICKETS = '5'
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = 'stop'
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ['app']
 
 [[services]]
-  protocol = "tcp"
+  protocol = 'tcp'
   internal_port = 8080
-  processes = ["app"]
+  processes = ['app']
 
   [[services.ports]]
     port = 80
-    handlers = ["http"]
+    handlers = ['http']
     force_https = true
 
   [[services.ports]]
     port = 443
-    handlers = ["tls", "http"]
+    handlers = ['tls', 'http']
+
   [services.concurrency]
-    type = "connections"
+    type = 'connections'
     hard_limit = 25
     soft_limit = 20
+
+[[vm]]
+  memory = '2gb'
+  cpu_kind = 'shared'
+  cpus = 1

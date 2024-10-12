@@ -7,7 +7,6 @@ from dotenv.main import load_dotenv
 
 load_dotenv()
 
-
 TOKEN: str = environ.get("TOKEN")
 GUILD: int = to_snowflake(environ.get("GUILD"))
 ADMIN_ROLE = to_snowflake(environ.get("ADMIN_ROLE"))
