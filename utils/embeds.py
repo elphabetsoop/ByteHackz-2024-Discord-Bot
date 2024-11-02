@@ -39,10 +39,10 @@ GENIUS_BAR = Embed(
             Maybe its the fact that the services you're planning to use are incompaitable, or that Python 2.9 just won't cut it.\n\n\
             That's where the Techies over at the **Genius Bar** come into play!\n\n\
             These guys here have great experience and can offer valuable feedback and suggestions on how you can get your prototype up and running\n\n\n\
-            Please queue by clicking the button below and come down to **__27-05-05__** when text and voice channels are created for you! 👇",
+            Please queue by clicking the button below and come down to **__27-05-06__** when text and voice channels are created for you! 👇",
     color="#F9AC42",
     footer="🧠",
-    image="https://cdn.discordapp.com/attachments/1169297244500009022/1171721535040524339/bytehackz2023logo.jpg?ex=655db5b7&is=654b40b7&hm=1bbffac59c047ff2ce37ead33000585b11760f5dbc81fac42cbff7ec0fe91e93&",
+    image="https://media.discordapp.net/attachments/1294543462292521010/1302153434610270279/BANNER.png?ex=67271463&is=6725c2e3&hm=e474046bfd8ee6cf9f90e7e5922a9d2069c28eb7aa8e1a2760f181c8ce9aa211&=&format=webp&quality=lossless&width=1146&height=565",
 )
 
 CONSOLE = Embed(

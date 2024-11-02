@@ -30,7 +30,7 @@ class Welcome(Scale):
             "The Byte®Hackz is an annual hackathon conducted for Information Technology students taking the module Full Stack Development Project (FSDP).\n\n\
             There will be 7 challenge statements, with 5 Groups of 4 to 5 Participants attempting each challenge statement.",
             color="#F9AC42",
-            image="https://media.discordapp.net/attachments/1169297244500009022/1171721535040524339/bytehackz2023logo.jpg?ex=655db5b7&is=654b40b7&hm=1bbffac59c047ff2ce37ead33000585b11760f5dbc81fac42cbff7ec0fe91e93&=&width=1266&height=609"
+            image="https://media.discordapp.net/attachments/1294543462292521010/1302153434610270279/BANNER.png?ex=67271463&is=6725c2e3&hm=e474046bfd8ee6cf9f90e7e5922a9d2069c28eb7aa8e1a2760f181c8ce9aa211&=&format=webp&quality=lossless&width=1146&height=565"
         )
 
         await ctx.send(embeds=[embed])
