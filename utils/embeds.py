@@ -36,7 +36,7 @@ GENIUS_BAR = Embed(
     "Genius Bar 🧠",
     "**Picture this**:\n\n\
             You've got yourself a cool prototype in mind, and as your Team is setting things up, you realize something.\n\n\
-            Maybe its the fact that the services you're planning to use are incompaitable, or that Python 2.9 just won't cut it.\n\n\
+            Maybe its the fact that the services you're planning to use are incompatible, or that Python 2.9 just won't cut it.\n\n\
             That's where the Techies over at the **Genius Bar** come into play!\n\n\
             These guys here have great experience and can offer valuable feedback and suggestions on how you can get your prototype up and running\n\n\n\
             Please queue by clicking the button below and come down to **__27-05-06__** when text and voice channels are created for you! 👇",
@@ -49,8 +49,8 @@ CONSOLE = Embed(
     "Console Games 🎮",
     "You're stressed and you really want a break.\n\n\
      Don't worry, we got you covered.\n\n\
-     Come Play our state of the art **Nintendo Switch** provided by Dr Joel 🤗\n\n\
-     We have games such as Arms, Overcooked and Mario Kart. Come by yourself or with another fellow human\n\n\n\
+     Come Play our state of the art **Nintendo Switch** provided by our goated EXCO member 🐐🔥\n\n\
+     We have games such as Mario Kart, Pico Park and Mario Bros. Come by yourself or with another fellow human\n\n\n\
     What are you waiting for? Queue up now!",
     color="#F9AC42",
     footer="",

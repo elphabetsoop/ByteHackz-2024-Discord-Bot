@@ -35,6 +35,7 @@ class Welcome(Scale):
 
         await ctx.send(embeds=[embed])
 
+        print("DEBUG: Welcome command executed")
         # await ctx.send("https://cdn.discordapp.com/attachments/895590724836401175/904702785965150278/unknown.png")
         await ctx.send(
             "Welcome to Bytehackz 2024, Claim your participant role here!",
@@ -42,11 +43,13 @@ class Welcome(Scale):
                 Button(
                     style=ButtonStyles.BLURPLE,
                     label="Claim Role",
-                    emoji=":overflow:",
+                    #emoji=":computer:",
                     custom_id="claimRole",
                 )
             ],
         )
+        
+        print("DEBUG: Sent claimrole")
 
     @component_callback("claimRole")
     async def claimRole(self, ctx):
